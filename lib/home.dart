@@ -35,7 +35,7 @@ class _HomeState extends State<Home> {
             child:
                 Image.asset("imagenes/Welcome2.png", width: size.width * 0.1),
           ),
-          iconTheme: IconThemeData(color: Colors.white),
+          iconTheme: IconThemeData(color: con.blanco),
           actions: [
             //LAS ACCIONES EXTRAS QUE PUEDE REALIZAR UNA APP Y SIEMPRE SE COLOCA A LA DERECHA
             IconButton(onPressed: () {}, icon: Icon(Icons.local_grocery_store)),

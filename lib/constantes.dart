@@ -8,4 +8,4 @@ const fondo = Color(0xFF451717);
 const amarillo = Colors.yellow;
 const blanco = Colors.white;
 const negro = Colors.black;
-const girs = Colors.grey;
+const gris = Colors.grey;

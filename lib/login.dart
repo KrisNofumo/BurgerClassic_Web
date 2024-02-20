@@ -49,7 +49,7 @@ class _LoginState extends State<Login> {
               padding: EdgeInsets.all(20.0),
               height: size.height * 0.6,
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: con.blanco,
                 borderRadius: BorderRadius.circular(20.0), // Bordes redondeados
               ),
               child: Column(
@@ -58,7 +58,7 @@ class _LoginState extends State<Login> {
                   Text(
                     "Bienvenido a\nBurger Classic",
                     style: TextStyle(
-                      color: Colors.orange,
+                      color: con.secundario,
                       fontSize: size.width * 0.06, // Tamaño de fuente adaptable
                       fontWeight: FontWeight.bold,
                     ),
@@ -69,12 +69,12 @@ class _LoginState extends State<Login> {
                   TextField(
                     decoration: InputDecoration(
                       labelText: "Correo/Usuario",
-                      labelStyle: TextStyle(color: Colors.grey),
+                      labelStyle: TextStyle(color: con.gris),
                       enabledBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.grey),
+                        borderSide: BorderSide(color: con.gris),
                       ),
                       focusedBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.orange),
+                        borderSide: BorderSide(color: con.secundario),
                       ),
                     ),
                   ),
@@ -84,12 +84,12 @@ class _LoginState extends State<Login> {
                     obscureText: true,
                     decoration: InputDecoration(
                       labelText: "Contraseña",
-                      labelStyle: TextStyle(color: Colors.grey),
+                      labelStyle: TextStyle(color: con.gris),
                       enabledBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.grey),
+                        borderSide: BorderSide(color: con.gris),
                       ),
                       focusedBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.orange),
+                        borderSide: BorderSide(color: con.secundario),
                       ),
                     ),
                   ),

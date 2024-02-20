@@ -49,7 +49,7 @@ class _RegisterState extends State<Register> {
               padding: EdgeInsets.all(20.0),
               height: size.height * 0.6,
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: con.blanco,
                 borderRadius: BorderRadius.circular(20.0), // Bordes redondeados
               ),
               child: Column(
@@ -58,7 +58,7 @@ class _RegisterState extends State<Register> {
                   // Foto de perfil
                   CircleAvatar(
                     radius: size.width * 0.1, // Tamaño adaptable
-                    backgroundColor: Colors.grey[200],
+                    backgroundColor: con.gris[200],
                     //backgroundImage: AssetImage("imagenes/FotoLogin.png"),
                   ),
                   SizedBox(height: size.height * 0.05), // Espaciado adaptable
@@ -66,12 +66,12 @@ class _RegisterState extends State<Register> {
                   TextField(
                     decoration: InputDecoration(
                       labelText: "Nombre Completo",
-                      labelStyle: TextStyle(color: Colors.grey),
+                      labelStyle: TextStyle(color: con.gris),
                       enabledBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.grey),
+                        borderSide: BorderSide(color: con.gris),
                       ),
                       focusedBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.orange),
+                        borderSide: BorderSide(color: con.secundario),
                       ),
                     ),
                   ),
@@ -80,12 +80,12 @@ class _RegisterState extends State<Register> {
                   TextField(
                     decoration: InputDecoration(
                       labelText: "Usuario",
-                      labelStyle: TextStyle(color: Colors.grey),
+                      labelStyle: TextStyle(color: con.gris),
                       enabledBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.grey),
+                        borderSide: BorderSide(color: con.gris),
                       ),
                       focusedBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.orange),
+                        borderSide: BorderSide(color: con.secundario),
                       ),
                     ),
                   ),
@@ -94,12 +94,12 @@ class _RegisterState extends State<Register> {
                   TextField(
                     decoration: InputDecoration(
                       labelText: "Dirección de Envío",
-                      labelStyle: TextStyle(color: Colors.grey),
+                      labelStyle: TextStyle(color: con.gris),
                       enabledBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.grey),
+                        borderSide: BorderSide(color: con.gris),
                       ),
                       focusedBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.orange),
+                        borderSide: BorderSide(color: con.secundario),
                       ),
                     ),
                   ),
@@ -109,12 +109,12 @@ class _RegisterState extends State<Register> {
                     obscureText: true,
                     decoration: InputDecoration(
                       labelText: "Contraseña",
-                      labelStyle: TextStyle(color: Colors.grey),
+                      labelStyle: TextStyle(color: con.gris),
                       enabledBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.grey),
+                        borderSide: BorderSide(color: con.gris),
                       ),
                       focusedBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.orange),
+                        borderSide: BorderSide(color: con.secundario),
                       ),
                     ),
                   ),
