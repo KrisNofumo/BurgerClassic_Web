@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter2/constantes.dart' as con;
 
 class drawerWidget extends StatelessWidget {
   const drawerWidget({
@@ -16,21 +17,24 @@ class drawerWidget extends StatelessWidget {
               color: Colors.green,
             ), //BoxDecoration
             child: UserAccountsDrawerHeader(
-              decoration: BoxDecoration(color: Colors.green),
-              accountName: Text(
-                "Abhishek Mishra",
-                style: TextStyle(fontSize: 18),
-              ),
-              accountEmail: Text("abhishekm977@gmail.com"),
-              currentAccountPictureSize: Size.square(50),
-              currentAccountPicture: CircleAvatar(
-                backgroundColor: Color.fromARGB(255, 165, 255, 137),
-                child: Text(
-                  "A",
-                  style: TextStyle(fontSize: 30.0, color: Colors.blue),
-                ), //Text
-              ), //circleAvatar
-            ), //UserAccountDrawerHeader
+                decoration: BoxDecoration(color: Colors.green),
+                accountName: Text(
+                  "Kristoff Edwin Ruiz Duarte",
+                  style: TextStyle(fontSize: 18),
+                ),
+                accountEmail: Text("abhishekm977@gmail.com"),
+                currentAccountPictureSize: Size.square(50),
+                currentAccountPicture: Padding(
+                  padding: EdgeInsets.only(bottom: 10),
+                  child: CircleAvatar(
+                    backgroundColor: Colors.brown,
+                    child: Text(
+                      "D",
+                      style: TextStyle(fontSize: 30.0, color: con.blanco),
+                    ),
+                  ),
+                ) //Padding
+                ), //UserAccountDrawerHeader
           ), //DrawerHeader
           ListTile(
             leading: const Icon(Icons.person),
